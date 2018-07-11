@@ -27,7 +27,16 @@
   to { transform: rotate(360deg); }
 }
 
-div.Main {
-  width: 800px;
-  margin: 50px auto;
+.container {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
+.tittle {
+    margin: 10px auto
+}
+
+.Item {
+    width: 300px
 }
